@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Natasha are you asleep</string>
+    <string name="first_text">"Наташ, ты спишь?"</string>
+    <string name="second_text">"Уже 6 часов утра, Наташ"</string>
+    <string name="third_text">"Вставай, мы там всё уронили"</string>
+    <string name="forth_text">"Мы уронили вообще всё, Наташ, честно"</string>
+</resources>
