@@ -1,5 +1,6 @@
 package com.example.hellokitty
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -32,8 +33,11 @@ class MainActivity : AppCompatActivity() {
         imageButton.setOnClickListener {
             helloTextView.setText("Hello Kitty")
 
-
-
+        //обработчик щелчка кнопки
+            imageButton.setOnClickListener{
+                val intent = Intent(this@MainActivity,AboutActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
 }
